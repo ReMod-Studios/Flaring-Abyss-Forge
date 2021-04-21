@@ -1,6 +1,6 @@
 package com.remodstudios.flabyss;
 
-import net.minecraft.world.item.Items;
+import net.minecraft.item.Items;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.world.ExplosionEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -14,6 +14,8 @@ import org.apache.logging.log4j.Logger;
 
 @Mod("flabyss")
 public class FlaringAbyssMain {
+
+    public final String MOD_ID = "flabyss";
 
     private static final Logger LOGGER = LogManager.getLogger();
 
@@ -44,7 +46,7 @@ public class FlaringAbyssMain {
     }
 
     private void clientSetup(final FMLClientSetupEvent event) {
-        LOGGER.info("Hey, we're on Minecraft version {}!", event.getMinecraftSupplier().get().getLaunchedVersion());
+        LOGGER.info("Hey, we're on Minecraft version {}!", event.getMinecraftSupplier().get());
     }
 
     @SubscribeEvent

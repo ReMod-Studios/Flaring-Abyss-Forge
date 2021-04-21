@@ -4,6 +4,7 @@
   "package": "com.remodstudios.flabyss.mixin_package",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
+
   ],
   "client": [
   ],

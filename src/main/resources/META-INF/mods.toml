@@ -8,20 +8,18 @@ version = "${version}"
 displayName = "Flaring Abyss"
 logoFile="icon.png"
 authors="LePichu"
-description =  A Project which aims to expand the Nether further!
+description =  'A Project which aims to expand the Nether further!'
 
 [[dependencies.flabyss]]
 modId = "forge"
-mandatory = true # do you **need** this mod to be able to launch?
-
-versionRange = "[36,)" # This essentially means any forge >= 36
-ordering = "NONE" # Use this if you want your mod to be loaded specifically BEFORE or AFTER another mod
-side = "BOTH" # Specify where this mod is required: can be BOTH, CLIENT or SERVER
+mandatory = true
+versionRange = "[36,)"
+ordering = "NONE"
+side = "BOTH"
 
 [[dependencies.flabyss]]
 modId = "minecraft"
 mandatory = true
-
 versionRange = "[1.16.5,1.17)"
 ordering = "NONE"
 side = "BOTH"

@@ -70,10 +70,10 @@ dependencies {
 
     // choose what mappings you want to use here
     // leave this uncommented if you want to use mojang's official mappings
-    mappings minecraft.officialMojangMappings()
+    // mappings minecraft.officialMojangMappings()
 
     // uncomment this if you want to use yarn mappings
-    // mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
+    mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
 
     // uncomment this if you want to use mcp mappings
     // mappings "de.oceanlabs.mcp:mcp_${project.mcp_channel}:${project.mcp_mappings}"
