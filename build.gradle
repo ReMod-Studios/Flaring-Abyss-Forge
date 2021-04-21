@@ -62,6 +62,7 @@ repositories {
         name = "Progwml6 (Just Enough Items)"
         url = "https://dvs1.progwml6.com/files/maven/"
     }
+    maven { url 'https://jitpack.io' }
 }
 
 dependencies {
@@ -81,6 +82,8 @@ dependencies {
     // your forge dependency, this is **required** when using Forge Loom in forge mode!
     forge "net.minecraftforge:forge:${project.minecraft_version}-${project.forge_version}"
 
+    modImplementation "com.github.ReMod-Studios:ReModCore:379722cfa6"
+    
     // additional dependencies can be specified using loom's regular format
     // specifying a "mod" dependency (like modImplementation or modApi)
     // will cause loom to remap the file to your specified mappings
