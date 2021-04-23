@@ -1,14 +1,14 @@
-package com.remodstudios.flabyss.item_package;
+package com.remodstudios.flabyss.items_package;
 
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
+import net.minecraft.item.HoeItem;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.PickaxeItem;
 import net.minecraft.item.ToolMaterial;
 
-public class StygianPickaxe extends PickaxeItem {
-    protected StygianPickaxe(ToolMaterial material, int attackDamage, float attackSpeed, Settings settings) {
+public class StygianHoe extends HoeItem {
+    protected StygianHoe(ToolMaterial material, int attackDamage, float attackSpeed, Settings settings) {
         super(material, attackDamage, attackSpeed, settings);
     }
 
